@@ -23,8 +23,7 @@ int main()
 	
 	if (fptr == NULL)
 	{
-		printf("
-		);
+		printf("File not found! \n");
 		return 1;
 	}
 	
@@ -40,4 +39,5 @@ int main()
 	fclose(fptr);
 	
 	return 0;
+
 }
