@@ -20,8 +20,7 @@ int main()
 	
 	if (fptr == NULL)
 	{
-		printf("
-		");
+		printf("File not found! \n");
 		return 1;
 	}
 	
@@ -43,4 +42,5 @@ int main()
 	printf("The enterd information has been succecfully stored. Have a nice day");
 	
 	return 0;
+
 }
